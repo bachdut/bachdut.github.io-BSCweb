@@ -1,9 +1,8 @@
-const btn = document.getElementById('button');
 const serviceID = 'service_7wjqcrb';
 const templateID = 'template_4ik9iyh';
 
 function sendAutenticationRequest() {
-
+    const btn = document.getElementById('button');
     document.getElementById('form')
     .addEventListener('submit', function(event) {
     event.preventDefault();

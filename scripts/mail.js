@@ -17,6 +17,8 @@ function sendAutenticationRequest() {
             pass.value = "";        
             btn.value = 'Sign In';
             alert('Account created successfully!');
+            window.location.href = "index.html";
+
         }, (err) => {
         btn.value = 'Sign In';
         alert(JSON.stringify(err));
